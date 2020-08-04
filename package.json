@@ -1,0 +1,24 @@
+{
+  "name": "albert",
+  "version": "1.0.0",
+  "description": "Albert will remind me important thing to do during the week",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir -p dist && cp src/* dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bongofury/albert.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bongofury/albert/issues"
+  },
+  "homepage": "https://github.com/bongofury/albert#readme"
+}
