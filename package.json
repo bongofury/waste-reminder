@@ -4,9 +4,16 @@
   "description": "Albert will remind me important thing to do during the week",
   "main": "index.js",
   "dependencies": {
-    "http-server": "^0.12.3"
+    "http-server": "^0.12.3",
+    "node-poppler": "^1.8.1",
+    "resemblejs": "^3.2.5",
+    "sharp": "^0.25.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "mkdir -p dist && cp src/* dist"
