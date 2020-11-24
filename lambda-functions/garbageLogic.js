@@ -1,4 +1,4 @@
-const calendar = require('./garbage-data/calendar.json');
+const calendar = require('./garbage-data/calendar.min.json');
 
 const getGarbageDateYYYYMMDD = () => {
   // garbage date is tomorrow from today's 12:00am
