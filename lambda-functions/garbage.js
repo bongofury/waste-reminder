@@ -1,8 +1,6 @@
-const getGarbageResponse = require('./garbageLogic');
+const getGarbageResponse = require('./garbage-logic/garbageLogic');
 
-exports.handler = async () => {
-  return {
-    statusCode: 200,
-    body: JSON.stringify(getGarbageResponse()),
-  };
-};
+exports.handler = async () => ({
+  statusCode: 200,
+  body: JSON.stringify(getGarbageResponse()),
+});
