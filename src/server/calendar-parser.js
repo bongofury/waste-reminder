@@ -48,10 +48,10 @@ const dailyServicesImgsFromMonth = async (monthImg) => {
       console.log(outputFile);
       // eslint-disable-next-line no-await-in-loop
       await month.extract({
-        width: 70,
-        height: 68,
-        left: 350 + (parseInt(i / 16, 10) * 430 + (j * 72)),
-        top: 200 + ((i % 16) * 74),
+        width: 65,
+        height: 60,
+        left: 355 + (parseInt(i / 16, 10) * 430 + (j * 72)),
+        top: 265 + ((i % 16) * 74),
       }).toFile(outputFile);
     }
   }
