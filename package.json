@@ -15,7 +15,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdir -p dist && rm -rf dist/* && cp -r src/client/* dist"
+    "build": "mkdir -p dist && rm -rf dist/* && cp -r src/client/* dist",
+    "build:calendar": "mkdir -p tmp/calendar/days && mkdir -p tmp/calendar/months && rm -rf tmp/calendar/days/* && rm -rf tmp/calendar/months/* && node src/server/calendar-parser"
   },
   "repository": {
     "type": "git",
