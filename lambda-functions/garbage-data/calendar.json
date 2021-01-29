@@ -1,715 +1,705 @@
 {
-  "20200102": [
-    "plastica",
-    "umido",
-    "carta"
-  ],
-  "20200107": [
+  "20210104": [
     "verde",
     "umido"
   ],
-  "20200108": [
-    "vetro",
-    "indifferenziata"
+  "20210105": [
+    "indifferenziato"
   ],
-  "20200109": [
-    "plastica",
-    "umido",
-    "carta"
-  ],
-  "20200110": [
+  "20210108": [
     "ingombranti"
   ],
-  "20200113": [
+  "20210111": [
     "verde",
     "umido"
   ],
-  "20200115": [
+  "20210113": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200116": [
-    "plastica",
+  "20210114": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200120": [
+  "20210118": [
     "verde",
     "umido"
   ],
-  "20200122": [
+  "20210120": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200123": [
-    "plastica",
+  "20210121": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200127": [
+  "20210125": [
     "verde",
     "umido"
   ],
-  "20200129": [
+  "20210127": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200130": [
-    "plastica",
+  "20210128": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200203": [
+  "20210201": [
     "verde",
     "umido"
   ],
-  "20200205": [
+  "20210203": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200206": [
-    "plastica",
+  "20210204": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200210": [
+  "20210208": [
     "verde",
     "umido"
   ],
-  "20200212": [
+  "20210210": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200213": [
-    "plastica",
+  "20210211": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200214": [
+  "20210212": [
     "ingombranti"
   ],
-  "20200217": [
+  "20210215": [
     "verde",
     "umido"
   ],
-  "20200219": [
+  "20210217": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200220": [
-    "plastica",
+  "20210218": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200224": [
+  "20210222": [
     "verde",
     "umido"
   ],
-  "20200226": [
+  "20210224": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200227": [
-    "plastica",
+  "20210225": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200302": [
+  "20210301": [
     "verde",
     "umido"
   ],
-  "20200304": [
+  "20210303": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200305": [
-    "plastica",
+  "20210304": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200309": [
+  "20210308": [
     "verde",
     "umido"
   ],
-  "20200311": [
+  "20210310": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200312": [
-    "plastica",
+  "20210311": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200313": [
+  "20210312": [
     "ingombranti"
   ],
-  "20200316": [
+  "20210315": [
     "verde",
     "umido"
   ],
-  "20200318": [
+  "20210317": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200319": [
-    "plastica",
+  "20210318": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200323": [
+  "20210322": [
     "verde",
     "umido"
   ],
-  "20200325": [
+  "20210324": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200326": [
-    "plastica",
+  "20210325": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200330": [
+  "20210329": [
     "verde",
     "umido"
   ],
-  "20200401": [
+  "20210331": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200402": [
-    "plastica",
+  "20210401": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200406": [
+  "20210406": [
     "verde",
     "umido"
   ],
-  "20200408": [
+  "20210407": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200409": [
-    "plastica",
+  "20210408": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200410": [
+  "20210409": [
     "ingombranti"
   ],
-  "20200414": [
+  "20210412": [
     "verde",
     "umido"
   ],
-  "20200415": [
+  "20210414": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200416": [
-    "plastica",
+  "20210415": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200420": [
+  "20210419": [
     "verde",
     "umido"
   ],
-  "20200422": [
+  "20210421": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200423": [
-    "plastica",
+  "20210422": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200427": [
+  "20210426": [
     "verde",
     "umido"
   ],
-  "20200429": [
+  "20210428": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200430": [
-    "plastica",
+  "20210429": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200504": [
+  "20210503": [
     "verde",
     "umido"
   ],
-  "20200506": [
+  "20210505": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200507": [
-    "plastica",
+  "20210506": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200508": [
+  "20210510": [
+    "verde",
+    "umido"
+  ],
+  "20210512": [
+    "vetro",
+    "indifferenziato"
+  ],
+  "20210513": [
+    "umido",
+    "carta",
+    "plastica"
+  ],
+  "20210514": [
     "ingombranti"
   ],
-  "20200511": [
+  "20210517": [
     "verde",
     "umido"
   ],
-  "20200513": [
+  "20210519": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200514": [
-    "plastica",
+  "20210520": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200518": [
+  "20210524": [
     "verde",
     "umido"
   ],
-  "20200520": [
+  "20210526": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200521": [
-    "plastica",
+  "20210527": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200525": [
+  "20210531": [
     "verde",
     "umido"
   ],
-  "20200527": [
+  "20210601": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200528": [
-    "plastica",
+  "20210603": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200601": [
+  "20210607": [
     "verde",
     "umido"
   ],
-  "20200603": [
+  "20210609": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200604": [
-    "plastica",
+  "20210610": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200608": [
-    "verde",
-    "umido"
-  ],
-  "20200610": [
-    "vetro",
-    "indifferenziata"
-  ],
-  "20200611": [
-    "plastica",
-    "umido",
-    "carta"
-  ],
-  "20200612": [
+  "20210611": [
     "ingombranti"
   ],
-  "20200615": [
+  "20210614": [
     "verde",
     "umido"
   ],
-  "20200617": [
+  "20210616": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200618": [
-    "plastica",
+  "20210617": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200622": [
+  "20210621": [
     "verde",
     "umido"
   ],
-  "20200624": [
+  "20210623": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200625": [
-    "plastica",
+  "20210624": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200629": [
-    "umido"
-  ],
-  "20200701": [
-    "vetro",
-    "indifferenziata"
-  ],
-  "20200702": [
-    "plastica",
-    "umido",
-    "carta"
-  ],
-  "20200706": [
+  "20210628": [
     "verde",
     "umido"
   ],
-  "20200708": [
+  "20210630": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200709": [
-    "plastica",
+  "20210701": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200710": [
+  "20210705": [
+    "verde",
+    "umido"
+  ],
+  "20210707": [
+    "vetro",
+    "indifferenziato"
+  ],
+  "20210708": [
+    "umido",
+    "carta",
+    "plastica"
+  ],
+  "20210709": [
     "ingombranti"
   ],
-  "20200713": [
+  "20210712": [
     "verde",
     "umido"
   ],
-  "20200715": [
+  "20210714": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200716": [
-    "plastica",
+  "20210715": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200720": [
+  "20210719": [
     "verde",
     "umido"
   ],
-  "20200722": [
+  "20210721": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200723": [
-    "plastica",
+  "20210722": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200727": [
+  "20210726": [
     "verde",
     "umido"
   ],
-  "20200729": [
+  "20210728": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200730": [
-    "plastica",
+  "20210729": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200803": [
+  "20210802": [
     "verde",
     "umido"
   ],
-  "20200805": [
+  "20210804": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200806": [
-    "plastica",
+  "20210805": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200810": [
+  "20210809": [
     "umido"
   ],
-  "20200812": [
+  "20210811": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200813": [
-    "plastica",
+  "20210812": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200814": [
+  "20210813": [
     "ingombranti"
   ],
-  "20200817": [
+  "20210816": [
     "verde",
     "umido"
   ],
-  "20200819": [
+  "20210818": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200820": [
-    "plastica",
+  "20210819": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200824": [
+  "20210823": [
     "verde",
     "umido"
   ],
-  "20200826": [
+  "20210825": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200827": [
-    "plastica",
+  "20210826": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200831": [
+  "20210830": [
     "verde",
     "umido"
   ],
-  "20200902": [
+  "20210901": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200903": [
-    "plastica",
+  "20210902": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200907": [
+  "20210906": [
     "verde",
     "umido"
   ],
-  "20200909": [
+  "20210908": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200910": [
-    "plastica",
+  "20210909": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200911": [
+  "20210910": [
     "ingombranti"
   ],
-  "20200914": [
+  "20210913": [
     "verde",
     "umido"
   ],
-  "20200916": [
+  "20210915": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200917": [
-    "plastica",
+  "20210916": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200921": [
+  "20210920": [
     "verde",
     "umido"
   ],
-  "20200923": [
+  "20210922": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20200924": [
-    "plastica",
+  "20210923": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20200928": [
+  "20210927": [
     "verde",
     "umido"
   ],
-  "20200930": [
+  "20210929": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20201001": [
-    "plastica",
+  "20210930": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20201005": [
+  "20211004": [
     "verde",
     "umido"
   ],
-  "20201007": [
+  "20211006": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20201008": [
-    "plastica",
+  "20211007": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20201009": [
+  "20211008": [
     "ingombranti"
   ],
-  "20201012": [
+  "20211011": [
     "verde",
     "umido"
   ],
-  "20201014": [
+  "20211013": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20201015": [
-    "plastica",
+  "20211014": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20201019": [
+  "20211018": [
     "verde",
     "umido"
   ],
-  "20201021": [
+  "20211020": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20201022": [
-    "plastica",
+  "20211021": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20201026": [
+  "20211025": [
     "verde",
     "umido"
   ],
-  "20201028": [
+  "20211027": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20201029": [
-    "plastica",
+  "20211028": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20201102": [
+  "20211102": [
     "verde",
     "umido"
   ],
-  "20201104": [
+  "20211103": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20201105": [
-    "plastica",
+  "20211104": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20201109": [
+  "20211108": [
     "verde",
     "umido"
   ],
-  "20201111": [
+  "20211110": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20201112": [
-    "plastica",
+  "20211111": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20201113": [
+  "20211112": [
     "ingombranti"
   ],
-  "20201116": [
+  "20211115": [
     "verde",
     "umido"
   ],
-  "20201118": [
+  "20211117": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20201119": [
-    "plastica",
+  "20211118": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20201123": [
+  "20211122": [
     "verde",
     "umido"
   ],
-  "20201125": [
+  "20211124": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20201126": [
-    "plastica",
+  "20211125": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20201130": [
+  "20211129": [
     "verde",
     "umido"
   ],
-  "20201202": [
+  "20211201": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20201203": [
-    "plastica",
+  "20211202": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20201207": [
+  "20211206": [
     "verde",
     "umido"
   ],
-  "20201209": [
+  "20211207": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20201210": [
-    "plastica",
+  "20211209": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20201211": [
+  "20211210": [
     "ingombranti"
   ],
-  "20201214": [
+  "20211213": [
     "verde",
     "umido"
   ],
-  "20201216": [
+  "20211215": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20201217": [
-    "plastica",
+  "20211216": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20201221": [
+  "20211220": [
     "umido"
   ],
-  "20201223": [
+  "20211222": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20201224": [
-    "plastica",
+  "20211223": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ],
-  "20201228": [
+  "20211227": [
     "umido"
   ],
-  "20201230": [
+  "20211229": [
     "vetro",
-    "indifferenziata"
+    "indifferenziato"
   ],
-  "20201231": [
-    "plastica",
+  "20211230": [
     "umido",
-    "carta"
+    "carta",
+    "plastica"
   ]
 }
