@@ -2,15 +2,16 @@
   "name": "albert",
   "version": "1.0.0",
   "description": "Albert will remind me important thing to do during the week",
-  "dependencies": {},
+  "dependencies": {
+    "opencv4nodejs": "^5.6.0",
+    "node-poppler": "^1.8.1",
+    "sharp": "^0.25.4"
+  },
   "devDependencies": {
+    "eslint": "^7.6.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
-    "eslint": "^7.6.0",
-    "http-server": "^0.12.3",
-    "node-poppler": "^1.8.1",
-    "resemblejs": "^3.2.5",
-    "sharp": "^0.25.4"
+    "http-server": "^0.12.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
