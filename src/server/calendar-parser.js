@@ -3,7 +3,7 @@ const path = require('path');
 const { promisify } = require('util');
 const sharp = require('sharp');
 const { Poppler } = require('node-poppler');
-const compareImages = require('./compare-images');
+const compareImages = require('./compare-images-hist');
 
 const poppler = new Poppler('/usr/bin');
 
@@ -12,11 +12,12 @@ const readDir = promisify(fs.readdir);
 const TMP_DIR = './tmp/calendar';
 const DAYS_DIR = path.join(TMP_DIR, 'days');
 const MONTHS_DIR = path.join(TMP_DIR, 'months');
-const SAMPLES_DIR = './input/service-samples';
-const CUR_YEAR = '2020';
-const OUTPUT_JSON = './output/service-calendar.json';
+const SAMPLES_DIR = '../../input/service-samples';
+const CUR_YEAR = (new Date()).getFullYear();
+const OUTPUT_JSON = '../../output/service-calendar.json';
 
 const pagesToPng = (inputPdf) => {
+  console.log('1/3 Getting pages from pdf');
   const pages = [7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29];
 
   const pagesToPngPromises = pages.map((p, idx) => {
@@ -41,11 +42,9 @@ const daysInMonth = (monthNum, fullYear = new Date().getFullYear()) => (
 const dailyServicesImgsFromMonth = async (monthImg) => {
   const month = sharp(monthImg);
   const monthNum = parseInt(monthImg.split('-')[1], 10);
-  console.log(monthNum);
   for (let i = 0; i < daysInMonth(monthNum); i += 1) {
     for (let j = 0; j < 3; j += 1) {
       const outputFile = `${DAYS_DIR}/${CUR_YEAR}${(String(monthNum)).padStart(2, '0')}${(String(i + 1)).padStart(2, '0')}-${j}.png`;
-      console.log(outputFile);
       // eslint-disable-next-line no-await-in-loop
       await month.extract({
         width: 65,
@@ -55,24 +54,6 @@ const dailyServicesImgsFromMonth = async (monthImg) => {
       }).toFile(outputFile);
     }
   }
-};
-
-const findDayServices = async (dayString) => {
-  const allFiles = await readDir(DAYS_DIR);
-  const dayFiles = allFiles.filter((f) => f.startsWith(dayString));
-  console.log(dayFiles);
-  const serviceSamples = await readDir(SAMPLES_DIR);
-  const allPromises = dayFiles.reduce((acc, dayFile) => (
-    [
-      ...acc,
-      ...serviceSamples.map((service) => compareImages(
-        path.join(SAMPLES_DIR, service),
-        path.join(DAYS_DIR, dayFile),
-        service,
-      )),
-    ]
-  ), []);
-  return Promise.all(allPromises);
 };
 
 const getInfoFromFilename = (fileName) => (
@@ -88,24 +69,28 @@ const initServiceSamplesData = async () => {
 };
 
 const findServiceGivenImg = async (currentImgPath, samplesData) => {
-  const results = await Promise.all(
+  const serviceResults = await Promise.all(
     samplesData.map(({ name: serviceName, path: servicePath }) => (
-      compareImages(currentImgPath, servicePath, serviceName)
+      compareImages(currentImgPath, servicePath).then(
+        (isMatching) => isMatching && serviceName,
+      )
     )),
   );
 
-  const serviceFound = results
-    .filter(({ rawMisMatchPercentage: p = 100 }) => p < 2)
-    .sort((
-      { rawMisMatchPercentage: p1 },
-      { rawMisMatchPercentage: p2 },
-    ) => p1 - p2);
-  return serviceFound.length
-    ? (serviceFound[0] && serviceFound[0].result)
+  const serviceMatching = serviceResults
+    .filter(Boolean);
+
+  if (serviceMatching.length > 1) {
+    throw (new Error('Not sure for a service, more than one matching'));
+  }
+
+  return serviceMatching.length === 1
+    ? serviceMatching[0]
     : null;
 };
 
 const createServiceCalendar = async () => {
+  console.log('2/3 Recognizing services from images data');
   const allDayServiceFiles = await readDir(DAYS_DIR);
   const samplesData = await initServiceSamplesData();
   const allMatches = await Promise.all(
@@ -139,12 +124,16 @@ const writeOutput = (data) => {
 };
 
 const parsePdf = async () => {
-  await pagesToPng('./input/casarile-2020-ok.pdf')
-    .then((monthImgsPaths) => Promise.all(
-      monthImgsPaths.map(dailyServicesImgsFromMonth),
-    ))
+  await pagesToPng('../../input/casarile-2021-ok.pdf')
+    .then((monthImgsPaths) => {
+      console.log('3/3 Splitting month images into single service images');
+      return Promise.all(
+        monthImgsPaths.map(dailyServicesImgsFromMonth),
+      );
+    })
     .then(createServiceCalendar)
     .then(writeOutput);
+  console.log('Done, calendar written to', OUTPUT_JSON);
 };
 
 parsePdf();
