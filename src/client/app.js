@@ -4,13 +4,27 @@
     const garbageResponse = await window.fetch('/.netlify/functions/garbage')
       .then((res) => res.json());
     const { items, date } = garbageResponse;
-    mainEl.innerHTML = items.length
-      ? `<p>Domani (giorno ${date}) ritirano:
+
+    const currentDate = (new Date()).getDate();
+    const responseDate = parseInt(date.slice(-2), 10);
+
+    const isToday = currentDate === responseDate;
+
+    const time = isToday ? 'Oggi' : 'Domani';
+
+    const content = `
+      <p>${time} ${items.length
+    ? `si ritira:
           <ul>
             ${(items.map((i) => `<li>${i}</li>`)).join('')}
           </ul>
-        </p>`
-      : `<p>Domani (giorno ${date}) non si ritira la spazzatura</p>`;
+        `
+    : `non si ritira la spazzatura`
+  }
+      </p>
+    `;
+
+    mainEl.innerHTML = content;
   } catch (e) {
     mainEl.innerHTML = `
       <p>Errore! ${e}</p>
