@@ -16,10 +16,10 @@
       <p>${time} ${items.length
     ? `si ritira:
           <ul>
-            ${(items.map((i) => `<li>${i}</li>`)).join('')}
+            ${(items.map((i) => `<li class="${i}">${i}</li>`)).join('')}
           </ul>
         `
-    : `non si ritira la spazzatura`
+    : 'non si ritira la spazzatura'
   }
       </p>
     `;

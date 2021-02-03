@@ -1,0 +1,55 @@
+main {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  padding: 1rem;
+  border: 3px solid;
+  border-radius: .5rem;
+  text-transform: uppercase;
+  margin: .2rem .3rem;
+}
+
+.carta {
+  color: #c89253;
+  border-color: #d0cfd0;
+}
+
+.indifferenziato {
+  color: #ad3f7c;
+  border-color: #2b9d44;
+}
+
+.ingombranti {
+  color: #302a28;
+  border-color: #db1e26;
+}
+
+.plastica {
+  color: #3652ab;
+  border-color: #fcc707;
+}
+
+.umido {
+  color: #e15d2c;
+  border-color: #7c581d;
+}
+
+.verde {
+  color: #318437;
+  border-color: #656263;
+}
+
+.vetro {
+  color: #5e8e55;
+  border-color: #315cb3;
+}
