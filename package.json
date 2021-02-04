@@ -1,7 +1,7 @@
 {
-  "name": "albert",
+  "name": "waste-reminder",
   "version": "1.0.0",
-  "description": "Albert will remind me important thing to do during the week",
+  "description": "https://github.com/bongofury/waste-reminder",
   "dependencies": {},
   "devDependencies": {
     "eslint": "^7.6.0",
@@ -19,12 +19,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bongofury/albert.git"
+    "url": "git+https://github.com/bongofury/waste-reminder"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bongofury/albert/issues"
+    "url": "https://github.com/bongofury/waste-reminder/issues"
   },
-  "homepage": "https://github.com/bongofury/albert#readme"
+  "homepage": "https://github.com/bongofury/waste-reminder#readme"
 }
