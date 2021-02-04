@@ -1,2 +1,3 @@
-# albert
-Albert will remind me important thing to do during the week
+# Waste reminder
+
+An app that tracks the waste collection calendar in Casarile.
