@@ -18,8 +18,8 @@ li {
   border-radius: .5rem;
   text-transform: uppercase;
   margin: 1rem .3rem;
-  width: 8rem;
-  height: 6rem;
+  width: 12rem;
+  height: 9rem;
 }
 
 li .title {
@@ -28,6 +28,13 @@ li .title {
   background: white;
   display: inline-block;
   padding: 0 .5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+li .icon {
+  width: 100%;
+  height: 100%;
 }
 
 li svg {
@@ -37,39 +44,45 @@ li svg {
 }
 
 .carta {
-  color: #c89253;
-  border-color: #d0cfd0;
+  color: #a09ea0;
+  border-color: #a09ea0;
+  fill: #c89253;
 }
 
 .indifferenziato {
-  color: #ad3f7c;
+  color: #2b9d44;
   border-color: #2b9d44;
+  fill: #ad3f7c;
 }
 
 .ingombranti {
-  color: #302a28;
+  color: #db1e26;
   border-color: #db1e26;
+  fill: #302a28;
 }
 
 .plastica {
-  color: #3652ab;
+  color: #fcc707;
   border-color: #fcc707;
+  fill: #3652ab;
 }
 
 .umido {
-  color: #e15d2c;
+  color: #7c581d;
   border-color: #7c581d;
-  fill: blue;
+  fill: #e15d2c;
 }
 
 .verde {
-  color: #318437;
+  color: #656263;
   border-color: #656263;
+  fill: #318437;
 }
 
 .vetro {
-  color: #5e8e55;
+  color: #315cb3;
   border-color: #315cb3;
+  fill: #5e8e55;
 }
 
 @media only screen and (max-width: 768px) {
