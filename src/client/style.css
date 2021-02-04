@@ -13,11 +13,27 @@ ul {
 }
 
 li {
-  padding: 1rem;
+  padding: .3rem;
   border: 3px solid;
   border-radius: .5rem;
   text-transform: uppercase;
-  margin: .2rem .3rem;
+  margin: 1rem .3rem;
+  width: 8rem;
+  height: 6rem;
+}
+
+li .title {
+  position: relative;
+  top: -1.1rem;
+  background: white;
+  display: inline-block;
+  padding: 0 .5rem;
+}
+
+li svg {
+  height: 80%;
+  position: relative;
+  top: -0.4rem;
 }
 
 .carta {
@@ -43,6 +59,7 @@ li {
 .umido {
   color: #e15d2c;
   border-color: #7c581d;
+  fill: blue;
 }
 
 .verde {
