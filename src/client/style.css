@@ -1,3 +1,7 @@
+html {
+  font-size: 18px;
+}
+
 main {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
@@ -10,6 +14,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
 li {
@@ -28,7 +33,6 @@ li .title {
   background: white;
   display: inline-block;
   padding: 0 .5rem;
-  font-size: 1.1rem;
   font-weight: 600;
 }
 
