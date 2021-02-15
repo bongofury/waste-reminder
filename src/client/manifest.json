@@ -1,0 +1,22 @@
+{
+  "short_name": "Ritiro rifiuti",
+  "name": "Ritiro rifiuti Casarile",
+  "icons": [
+    {
+      "src": "/assets/icons/recycle-bin-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/icons/recycle-bin-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFC300",
+  "display": "fullscreen",
+  "scope": "/",
+  "theme_color": "#FFC300",
+  "description": "Il calendario del ritiro rifiuti a Casarile"
+}
