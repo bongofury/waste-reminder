@@ -16,4 +16,17 @@ L'applicazione è disponibile all'indirizzo https://rifiuti-casarile.netlify.app
 
 ## Istallazione
 
-È possibile "istallare" l'app sullo smartphone, creando un link nella schermata home, come descritto [qui](http://www.lomazzosicura.it/aggiungere-siti-alla-schermata-iniziale-cellulare.asp)
+È possibile "istallare" l'app sullo smartphone, creando un link nella schermata home
+
+### Android
+
+* Visitare l'indirizzo https://rifiuti-casarile.netlify.app/ con Chrome
+* Dal menu di Chrome, scegliere "Aggiungi a schermata home"
+* Modificare il nome del link (se necessario) e scegliere "Aggiungi"
+
+### IPhone
+
+* Visitare l'indirizzo https://rifiuti-casarile.netlify.app/ con Safari
+* Toccare il pulsante "Condividi" nella parte inferiore della pagina.
+* Nell'elenco delle opzioni visualizzate, scegliere "Aggiungi alla schermata principale".
+* Modificare il nome del link (se necessario) e scegliere "Aggiungi"
