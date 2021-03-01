@@ -15,15 +15,21 @@
       .then((res) => res.json());
     const { items, date } = garbageResponse;
 
-    const currentDate = (new Date()).getDate();
+    const dateNow = new Date();
+    const currentDate = (dateNow).getDate();
     const responseDate = parseInt(date.slice(-2), 10);
 
     const isToday = currentDate === responseDate;
 
     const time = isToday ? 'Oggi' : 'Domani';
+    const dateString = dateNow.toLocaleString('it-IT', {
+      weekday: 'short',
+      month: 'short',
+      day: 'numeric',
+    });
 
     const content = `
-      <p>${time} ${items.length
+      <p>${time} (${dateString}) ${items.length
     ? `si ritira:
           <ul>
             ${(items.map((i) => `<li class="${i}"><div class="title">${i}</div><div class="icon">${icons[i]}</div></li>`)).join('')}
