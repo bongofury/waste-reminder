@@ -15,14 +15,19 @@
       .then((res) => res.json());
     const { items, date } = garbageResponse;
 
-    const dateNow = new Date();
-    const currentDate = (dateNow).getDate();
-    const responseDate = parseInt(date.slice(-2), 10);
+    const currentDay = (new Date()).getDate();
+    const [,
+      responseYear,
+      responseMonth,
+      responseDay,
+    ] = date.match(/([0-9]{4})([0-9]{2})([0-9]{2})/);
 
-    const isToday = currentDate === responseDate;
+    const responseDate = new Date(`${responseYear}-${responseMonth}-${responseDay}T00:00:00`);
+
+    const isToday = currentDay === parseInt(responseDay, 10);
 
     const time = isToday ? 'Oggi' : 'Domani';
-    const dateString = dateNow.toLocaleString('it-IT', {
+    const dateString = responseDate.toLocaleString('it-IT', {
       weekday: 'short',
       month: 'short',
       day: 'numeric',
