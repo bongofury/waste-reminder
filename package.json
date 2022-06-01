@@ -10,7 +10,7 @@
     "http-server": "^0.12.3",
     "opencv4nodejs": "^5.6.0",
     "node-poppler": "^1.8.1",
-    "sharp": "^0.25.4"
+    "sharp": "^0.30.5"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
